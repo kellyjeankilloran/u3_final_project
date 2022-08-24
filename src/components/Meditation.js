@@ -12,13 +12,11 @@ let Meditation = (props) => {
         <ul className="info">{props.meditation.teacher}</ul>
         <ul className="info">{props.meditation.length}</ul>
       </div>
-      {props.meditation.category.map((category) => (
-        <Category
-          className="cat_block"
-          key={category.id}
-          name={category.name}
-        />
-      ))}
+      <div className="cat_block">
+        {props.meditation.category.map((category) => (
+          <Category key={category.id} name={category.name} />
+        ))}
+      </div>
     </div>
   )
 }

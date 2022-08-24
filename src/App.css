@@ -18,15 +18,18 @@ div{
   margin: 10px;
   justify-content: left;
 }
-.img{
-  height: 10px;
-  width: auto;
+img{
+  width: 50%;
+  height: auto;
 }
 
 .info {
   display: inline;
   justify-content: center;
 }
-.cat_block{
-  size: 25px 10px;
+.cat_block {
+  width: 100%;
+  max-width: 100px;
+  border: 1px solid red;
+  
 }
