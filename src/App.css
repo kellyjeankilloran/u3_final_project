@@ -1,6 +1,20 @@
 body {
-  margin: 50px 175px;
+  margin: 0px 175px;
+  padding: 0px 0px 20px 0px;
   text-align: center;
   display: flex;
   justify-content:right;
+  /* background-image: url(https://i.imgur.com/rloGjRf.jpg); */
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section {
+  display: flex;
+}
+div{
+  margin: 10px;
+  justify-content: left;
 }
