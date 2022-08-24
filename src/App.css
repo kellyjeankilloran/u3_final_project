@@ -27,9 +27,17 @@ img{
   display: inline;
   justify-content: center;
 }
+
 .cat_block {
   width: 100%;
   max-width: 100px;
-  border: 1px solid red;
-  
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  padding: 10px;
+}
+
+.cat_block div {
+  padding: 5px 12px;
+  min-width: 90px;
 }

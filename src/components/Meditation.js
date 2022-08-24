@@ -2,7 +2,7 @@ import Category from './Category'
 
 let Meditation = (props) => {
   return (
-    <div>
+    <div className="meditationContainer">
       <div key={props.meditation.id}>
         <img
           src={props.meditation.cover_image}

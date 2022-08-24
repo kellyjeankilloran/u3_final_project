@@ -14,9 +14,11 @@ const App = () => {
         <div>LOG OUT</div>
       </nav>
       <h1>Op e n Meditation Archive</h1>
-      {meditations.map((meditation) => (
-        <Meditation key={meditation.id} meditation={meditation} />
-      ))}
+      <div className="meditationChunk">
+        {meditations.map((meditation) => (
+          <Meditation key={meditation.id} meditation={meditation} />
+        ))}
+      </div>
     </div>
   )
 }

@@ -17,12 +17,7 @@ const Category = (props) => {
       Color = 'gray'
   }
   return (
-    <div
-      className=".cat_block"
-      style={{ backgroundColor: Color, color: 'black' }}
-    >
-      {props.name}
-    </div>
+    <div style={{ backgroundColor: Color, color: 'black' }}>{props.name}</div>
   )
 }
 
