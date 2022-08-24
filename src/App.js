@@ -19,7 +19,7 @@ const App = () => {
       <div className="main">
         <aside>
           Side
-          {/* <LiveClass Aug29={LiveClass.Aug29} /> */}
+          <LiveClass Aug29={LiveClass.Aug29} />
           {/* <ClassOne variable />
         <ClassOne variable />
         <ClassOne variable />
