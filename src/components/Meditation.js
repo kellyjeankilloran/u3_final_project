@@ -10,6 +10,7 @@ let Meditation = (props) => {
         />
         <h2 className="medTitle">{props.meditation.title}</h2>
         <ul className="info">{props.meditation.teacher}</ul>
+        <ul className="info">|</ul>
         <ul className="info">{props.meditation.length}</ul>
       </div>
       <div className="cat_block">
