@@ -2,16 +2,16 @@ const Category = (props) => {
   let Color
   switch (props.name) {
     case 'Inspire':
-      Color = '#AAAE8E'
+      Color = '#BF7D42'
       break
     case 'Calm':
-      Color = '#FF0022'
+      Color = '#C38F91'
       break
     case 'Ground':
-      Color = '#41EAD4'
+      Color = '#8E8D76'
       break
     case 'Energize':
-      Color = '#5C2751'
+      Color = '#F9D685'
       break
     default:
       Color = 'gray'

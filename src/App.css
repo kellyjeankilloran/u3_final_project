@@ -21,6 +21,7 @@ div{
 img{
   width: 50%;
   height: auto;
+  border-radius: 5%;
 }
 
 .info {
@@ -40,6 +41,7 @@ img{
 .cat_block div {
   padding: 5px 12px;
   min-width: 90px;
+
 }
 
 .meditationChunk {
