@@ -19,7 +19,7 @@ div{
   justify-content: left;
 }
 img{
-  width: 50%;
+  width: 30%;
   height: auto;
   border-radius: 5%;
 }
@@ -56,4 +56,5 @@ img{
   display: flex;
   flex-direction: column;
   min-width: 500px;
+  border: 1px solid red;
 }
