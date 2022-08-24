@@ -41,3 +41,17 @@ img{
   padding: 5px 12px;
   min-width: 90px;
 }
+
+.meditationChunk {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1500px;
+
+}
+
+.meditationContainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+}
