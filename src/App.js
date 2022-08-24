@@ -1,7 +1,8 @@
 import './App.css'
 import Meditation from './components/Meditation'
 import meditations from './data/meditations.js'
-import LiveClass from './components/LiveClass'
+// import LiveClass from './components/LiveClass'
+// import liveClasses from './data/liveClasses'
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
       <div className="main">
         <aside>
           Side
-          <LiveClass Aug29={LiveClass.Aug29} />
+          {/* <LiveClass liveclass={liveClasses} /> */}
           {/* <ClassOne variable />
         <ClassOne variable />
         <ClassOne variable />

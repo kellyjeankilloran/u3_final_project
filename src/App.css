@@ -23,7 +23,7 @@ div{
   justify-content: left;
 }
 img{
-  width: 30%;
+  width: 40%;
   height: auto;
   border-radius: 5%;
 }
@@ -41,6 +41,7 @@ img{
   display: flex;
   margin: auto;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 .cat_block div {
@@ -54,7 +55,7 @@ img{
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 3/4;
-  justify-content: left;
+  justify-content: space-evenly;
 
 }
 
