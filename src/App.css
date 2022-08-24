@@ -1,9 +1,9 @@
 body {
-  margin: 0px 175px;
-  padding: 0px 0px 20px 0px;
+  /* margin: 0px 175px;
+  padding: 0px 0px 20px 0px; */
   text-align: center;
   display: flex;
-  justify-content:right;
+  justify-content:center;
   /* background-image: url(https://i.imgur.com/rloGjRf.jpg); */
 }
 nav{
@@ -17,4 +17,16 @@ section {
 div{
   margin: 10px;
   justify-content: left;
+}
+.img{
+  height: 10px;
+  width: auto;
+}
+
+.info {
+  display: inline;
+  justify-content: center;
+}
+.cat_block{
+  size: 25px 10px;
 }
