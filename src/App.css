@@ -49,6 +49,7 @@ img{
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 1500px;
+  justify-content: center;
 
 }
 
@@ -57,4 +58,5 @@ img{
   flex-direction: column;
   min-width: 500px;
   border: 1px solid red;
+  width: 5px;
 }

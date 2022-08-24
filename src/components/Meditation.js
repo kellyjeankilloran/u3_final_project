@@ -8,7 +8,7 @@ let Meditation = (props) => {
           src={props.meditation.cover_image}
           alt="logo for each recorded meditation"
         />
-        <h2>{props.meditation.title}</h2>
+        <h2 className="medTitle">{props.meditation.title}</h2>
         <ul className="info">{props.meditation.teacher}</ul>
         <ul className="info">{props.meditation.length}</ul>
       </div>
