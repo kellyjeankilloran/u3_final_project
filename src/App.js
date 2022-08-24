@@ -5,7 +5,7 @@ import meditations from './data/meditations.js'
 const App = () => {
   return (
     <div className="App">
-      <h1>Daily Meditation Archive</h1>
+      <h1>Op e n Meditation Archive</h1>
       {meditations.map((meditation) => (
         <Meditation key={meditation.id} meditation={meditation} />
       ))}
