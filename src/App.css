@@ -1,6 +1,8 @@
 body {
   font-family:'Courier New', Courier, monospace;
-  margin: 0;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
 }
 h1 {
   text-align: center;
@@ -73,9 +75,7 @@ aside {
   color: white;
   flex-direction: column;
 }
-aside div {
-  justify-content: space-evenly;
-}
+
 .main {
   display: flex;
 
