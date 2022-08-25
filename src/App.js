@@ -20,7 +20,6 @@ const App = () => {
       <h1>Op e n Meditation Archive</h1>
       <div className="main">
         <aside>
-          Side
           <LiveClass liveclasses={liveClasses} />
           {/* <ClassOne variable />
         <ClassOne variable />

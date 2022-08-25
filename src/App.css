@@ -69,12 +69,16 @@ img{
 }
 aside {
   display: flex;
-  background-color: pink;
+  background-color: #486E7E;
   max-width: 1/4;
   width: 100%;
+  color: white;
 
 }
 .main {
   display: flex;
 
+}
+footer {
+  background-color: #A2B833;
 }
