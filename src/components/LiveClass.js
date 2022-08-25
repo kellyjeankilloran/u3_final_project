@@ -1,10 +1,27 @@
 const LiveClass = (props) => {
   console.log(props)
   return (
-    <div>
-      <p>{props.liveClasses.title}</p>
-      <p>{props.liveClasses.date}</p>
-      <p>{props.liveClasses.time}</p>
+    <div className="liveClassList">
+      <div>
+        <p>{props.liveclasses[0].title}</p>
+        <p>{props.liveclasses[0].date}</p>
+        <p>{props.liveclasses[0].time}</p>
+      </div>
+      <div>
+        <p>{props.liveclasses[1].title}</p>
+        <p>{props.liveclasses[1].date}</p>
+        <p>{props.liveclasses[1].time}</p>
+      </div>
+      <div>
+        <p>{props.liveclasses[2].title}</p>
+        <p>{props.liveclasses[2].date}</p>
+        <p>{props.liveclasses[2].time}</p>
+      </div>
+      <div>
+        <p>{props.liveclasses[3].title}</p>
+        <p>{props.liveclasses[3].date}</p>
+        <p>{props.liveclasses[3].time}</p>
+      </div>
     </div>
   )
 }

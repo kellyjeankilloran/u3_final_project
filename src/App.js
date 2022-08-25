@@ -1,8 +1,9 @@
 import './App.css'
 import Meditation from './components/Meditation'
 import meditations from './data/meditations.js'
-// import LiveClass from './components/LiveClass'
-// import liveClasses from './data/liveClasses'
+import LiveClass from './components/LiveClass'
+import liveClasses from './data/liveClasses'
+import Social from './components/Social'
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
       <div className="main">
         <aside>
           Side
-          {/* <LiveClass liveclass={liveClasses} /> */}
+          <LiveClass liveclasses={liveClasses} />
           {/* <ClassOne variable />
         <ClassOne variable />
         <ClassOne variable />
@@ -32,7 +33,9 @@ const App = () => {
           ))}
         </div>
       </div>
-      <footer></footer>
+      <footer>
+        <Social />
+      </footer>
     </div>
   )
 }
