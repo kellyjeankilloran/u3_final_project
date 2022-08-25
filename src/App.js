@@ -18,13 +18,14 @@ const App = () => {
       </nav>
 
       <h1>Op e n Meditation Archive</h1>
+      {/* <p>
+        Open is a mindfulness studio. Enter a place to come to your senses —
+        meditation, music, breathwork, and movement awaken body and mind to
+        bring you to the present moment.
+      </p> */}
       <div className="main">
         <aside>
           <LiveClass liveclasses={liveClasses} />
-          {/* <ClassOne variable />
-        <ClassOne variable />
-        <ClassOne variable />
-        <ClassOne variable /> */}
         </aside>
         <div className="meditationChunk">
           {meditations.map((meditation) => (

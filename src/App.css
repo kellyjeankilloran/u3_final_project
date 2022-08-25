@@ -71,7 +71,10 @@ aside {
   max-width: 1/4;
   width: 100%;
   color: white;
-
+  flex-direction: column;
+}
+aside div {
+  justify-content: space-evenly;
 }
 .main {
   display: flex;
@@ -82,4 +85,5 @@ footer {
   text-align: center;
   font-size: 30px;
   padding: 10px;
+  
 }
