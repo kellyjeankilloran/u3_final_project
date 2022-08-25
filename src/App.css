@@ -1,19 +1,17 @@
 body {
-  /* margin: 0px 175px;
-  padding: 0px 0px 20px 0px; */
-  /* text-align: center;
-  display: flex;
-  justify-content:center;
-  flex-direction: row; */
-  /* background-image: url(https://i.imgur.com/rloGjRf.jpg); */
+  font-family:'Courier New', Courier, monospace;
+  margin: 0;
 }
 h1 {
   text-align: center;
+  font-size: 50px;
 }
 nav{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #EDECE6;
+  padding: 10px;
 }
 section {
   display: flex;
@@ -81,4 +79,7 @@ aside {
 }
 footer {
   background-color: #A2B833;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
 }
